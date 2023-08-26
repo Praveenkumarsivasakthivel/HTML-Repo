@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element</title>
+    <style>
+        body{
+            background-image: url(https://cdn.wallpapersafari.com/22/70/oZCrvS.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        h1{
+            text-align: center;
+            text-shadow: 2px 1px rgb(5, 184, 216);
+            color: rgb(231, 241, 231);
+            /* padding: 5%; */
+        }
+        h1::selection{
+            color:rgb(238, 14, 14);
+        
+        }
+        p{
+            color: white;
+            font-size: 25px;
+            text-align: center;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Sample Program</h1>
+    <p>select the text in first line to see the effect.</p>
+    <p>This is example of::selection pseudo-element</p>
+</body>
+</html>

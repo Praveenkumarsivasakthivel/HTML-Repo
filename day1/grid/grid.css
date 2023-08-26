@@ -1,0 +1,35 @@
+.Container-div{
+    border: 5px solid mediumvioletred;
+}
+.grid{
+    color:rgb(14, 12, 12);
+    font-size: 16px;
+    text-align: center;
+}
+.box1{
+    background-color: pink;
+}
+.box2{
+    background-color: rgb(243, 98, 122);
+}
+.box3{
+    background-color: rgb(122, 4, 24);
+}
+.box4{
+    background-color: rgb(212, 111, 16);
+}
+.box5{
+    background-color: rgb(23, 100, 4);
+}
+.box6{
+    background-color: rgb(66, 76, 219);
+}
+.box7{
+    background-color: rgb(27, 4, 88);
+}
+.box8{
+    background-color: rgb(206, 219, 13);
+}
+.box9{
+    background-color: pink;
+}

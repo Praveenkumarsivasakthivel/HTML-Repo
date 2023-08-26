@@ -1,0 +1,39 @@
+.d1{
+    background-image: url(class.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    float: left;
+
+}
+.d1,h1{
+    color: rgb(44, 42, 42);
+    font-size: 30px;
+    text-shadow: 2px 1px yellow;
+    text-align: center;
+}
+.d2{
+    float: left;
+    width: 20%;
+    height: 300px;
+    background-color: gray;
+}
+.d3{
+    float: left;
+    width: 77%;
+    height: 300px;
+    background-color: aqua;
+}
+
+.foot{
+    background-color: skyblue;
+    height: 50px;
+    width: 100%;
+}
+.pk > div{
+    padding: 20px 0;
+    text-align: center;
+    margin: 5px;
+}
+

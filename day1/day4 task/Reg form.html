@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form width="250px">
+        <fieldset width="250px">
+            <legend>Registertion Form</legend>
+            <table height="600px" >
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name:</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label>User Name:</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td><label name="cpass">Confirm Password:</label></td>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td><label name="mail">Email:</label></td>
+                    <td><input type="email" required></td>
+                </tr>
+                <tr>
+                    <td><label name="mob">Mobile:</label></td>
+                    <td><input type="number" required></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td><input type="radio" name="gen">Male
+                    <input type="radio" name="gen">Femal</td>
+                </tr>
+                <tr>
+                    <td><label name="dob">DOB:</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label name="course">Course</label></td>
+                    <td>
+                        <select>
+                          <option>Select Your Department</option>
+                          <option>BCA</option>
+                          <option>BSc.CS</option>
+                          <option>MSc.CS</option>
+                          <option>MCA</option>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label name="nation">Nationality</label></td>
+                    <td><input type="radio" name="nation">Indian
+                        <input type="radio" name="nation">Others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Profile</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Submit</button>
+                        <button>Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
